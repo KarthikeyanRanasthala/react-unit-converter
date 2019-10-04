@@ -15,6 +15,8 @@ Minimal Yet Responsive Unit Converter Built With React, Material-UI & Convert-Un
 ```
 git clone https://github.com/karthikeyanranasthala/react-unit-converter.git
 
+cd react-unit-converter
+
 npm install
 
 npm start
