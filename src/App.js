@@ -40,7 +40,7 @@ class App extends React.Component {
     }
 
     handleSelector = event => {
-        this.setState({[event.target.name]: event.target.value})
+        this.setState({[event.target.name]: event.target.value, firstInput: 0, secondInput: 0})
     }
 
     handleInputFields = event => {
@@ -56,7 +56,7 @@ class App extends React.Component {
             this.setState({
                 secondInput: event.target.value,
                 flow: 'R2L'
-            }, 
+            },
             () => this.handleConversion())
         }
     }
